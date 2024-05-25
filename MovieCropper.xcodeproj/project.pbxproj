@@ -11,6 +11,17 @@
 		E21FFC822C01BAA7001BB439 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21FFC812C01BAA7001BB439 /* ContentView.swift */; };
 		E21FFC842C01BAA8001BB439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E21FFC832C01BAA8001BB439 /* Assets.xcassets */; };
 		E21FFC872C01BAA8001BB439 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E21FFC862C01BAA8001BB439 /* Preview Assets.xcassets */; };
+		E21FFC8F2C01C284001BB439 /* DragAndDropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21FFC8E2C01C284001BB439 /* DragAndDropView.swift */; };
+		E21FFC962C01D3D7001BB439 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = E21FFC952C01D3D7001BB439 /* icon.icns */; };
+		E21FFC982C01D483001BB439 /* VideoCropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21FFC972C01D483001BB439 /* VideoCropView.swift */; };
+		E21FFC9A2C022BE2001BB439 /* CGSize+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21FFC992C022BE2001BB439 /* CGSize+Extensions.swift */; };
+		E21FFC9C2C022BF8001BB439 /* CGRect+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21FFC9B2C022BF8001BB439 /* CGRect+Extensions.swift */; };
+		E21FFC9E2C022C33001BB439 /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21FFC9D2C022C33001BB439 /* CustomVideoPlayer.swift */; };
+		E21FFCA02C022C83001BB439 /* PressAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21FFC9F2C022C83001BB439 /* PressAction.swift */; };
+		E21FFCA22C022CCA001BB439 /* VideoCropper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21FFCA12C022CCA001BB439 /* VideoCropper.swift */; };
+		E21FFCA82C023547001BB439 /* VideoExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21FFCA72C023547001BB439 /* VideoExporter.swift */; };
+		E21FFCAA2C023AF3001BB439 /* UIType+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21FFCA92C023AF3001BB439 /* UIType+Extension.swift */; };
+		E21FFCAC2C023F61001BB439 /* ExportCompletedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21FFCAB2C023F61001BB439 /* ExportCompletedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +31,18 @@
 		E21FFC832C01BAA8001BB439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E21FFC862C01BAA8001BB439 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E21FFC882C01BAA8001BB439 /* MovieCropper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MovieCropper.entitlements; sourceTree = "<group>"; };
+		E21FFC8E2C01C284001BB439 /* DragAndDropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropView.swift; sourceTree = "<group>"; };
+		E21FFC902C01CDDB001BB439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E21FFC952C01D3D7001BB439 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		E21FFC972C01D483001BB439 /* VideoCropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCropView.swift; sourceTree = "<group>"; };
+		E21FFC992C022BE2001BB439 /* CGSize+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGSize+Extensions.swift"; sourceTree = "<group>"; };
+		E21FFC9B2C022BF8001BB439 /* CGRect+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+Extensions.swift"; sourceTree = "<group>"; };
+		E21FFC9D2C022C33001BB439 /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayer.swift; sourceTree = "<group>"; };
+		E21FFC9F2C022C83001BB439 /* PressAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressAction.swift; sourceTree = "<group>"; };
+		E21FFCA12C022CCA001BB439 /* VideoCropper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCropper.swift; sourceTree = "<group>"; };
+		E21FFCA72C023547001BB439 /* VideoExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoExporter.swift; sourceTree = "<group>"; };
+		E21FFCA92C023AF3001BB439 /* UIType+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIType+Extension.swift"; sourceTree = "<group>"; };
+		E21FFCAB2C023F61001BB439 /* ExportCompletedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportCompletedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +75,21 @@
 		E21FFC7E2C01BAA7001BB439 /* MovieCropper */ = {
 			isa = PBXGroup;
 			children = (
+				E21FFC902C01CDDB001BB439 /* Info.plist */,
 				E21FFC7F2C01BAA7001BB439 /* MovieCropperApp.swift */,
 				E21FFC812C01BAA7001BB439 /* ContentView.swift */,
+				E21FFCAB2C023F61001BB439 /* ExportCompletedView.swift */,
+				E21FFC972C01D483001BB439 /* VideoCropView.swift */,
+				E21FFCA12C022CCA001BB439 /* VideoCropper.swift */,
+				E21FFCA72C023547001BB439 /* VideoExporter.swift */,
+				E21FFC9F2C022C83001BB439 /* PressAction.swift */,
+				E21FFC9D2C022C33001BB439 /* CustomVideoPlayer.swift */,
+				E21FFC992C022BE2001BB439 /* CGSize+Extensions.swift */,
+				E21FFC9B2C022BF8001BB439 /* CGRect+Extensions.swift */,
+				E21FFCA92C023AF3001BB439 /* UIType+Extension.swift */,
+				E21FFC8E2C01C284001BB439 /* DragAndDropView.swift */,
 				E21FFC832C01BAA8001BB439 /* Assets.xcassets */,
+				E21FFC952C01D3D7001BB439 /* icon.icns */,
 				E21FFC882C01BAA8001BB439 /* MovieCropper.entitlements */,
 				E21FFC852C01BAA8001BB439 /* Preview Content */,
 			);
@@ -129,6 +164,7 @@
 			files = (
 				E21FFC872C01BAA8001BB439 /* Preview Assets.xcassets in Resources */,
 				E21FFC842C01BAA8001BB439 /* Assets.xcassets in Resources */,
+				E21FFC962C01D3D7001BB439 /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +175,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E21FFCA82C023547001BB439 /* VideoExporter.swift in Sources */,
+				E21FFC9E2C022C33001BB439 /* CustomVideoPlayer.swift in Sources */,
+				E21FFCA22C022CCA001BB439 /* VideoCropper.swift in Sources */,
 				E21FFC822C01BAA7001BB439 /* ContentView.swift in Sources */,
+				E21FFC9C2C022BF8001BB439 /* CGRect+Extensions.swift in Sources */,
+				E21FFC9A2C022BE2001BB439 /* CGSize+Extensions.swift in Sources */,
+				E21FFCAA2C023AF3001BB439 /* UIType+Extension.swift in Sources */,
+				E21FFC982C01D483001BB439 /* VideoCropView.swift in Sources */,
+				E21FFCAC2C023F61001BB439 /* ExportCompletedView.swift in Sources */,
+				E21FFC8F2C01C284001BB439 /* DragAndDropView.swift in Sources */,
 				E21FFC802C01BAA7001BB439 /* MovieCropperApp.swift in Sources */,
+				E21FFCA02C022C83001BB439 /* PressAction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,8 +314,8 @@
 		E21FFC8C2C01BAA8001BB439 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = MovieCropper/MovieCropper.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -279,6 +325,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MovieCropper/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,8 +342,8 @@
 		E21FFC8D2C01BAA8001BB439 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = MovieCropper/MovieCropper.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -306,6 +353,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MovieCropper/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
