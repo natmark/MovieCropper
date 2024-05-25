@@ -1,0 +1,2 @@
+# MovieCropper
+Movie cropping application
